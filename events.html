@@ -2,27 +2,8 @@
 <html lang="en">
   <head>
   <style type="text/css">
-    .icon-users:before{
-      font-size: 150px;
-      color: purple;
-    }
-    .flaticon-bible:before{
-      font-size: 150px;
-      color: purple;
-    }
-    .flaticon-rings:before{
-      font-size: 150px;
-      color: purple;
-    }
-    .flaticon-church:before{
-      font-size: 150px;
-      color: purple;
-    }
-    .flaticon-social-care:before{
-      font-size: 150px;
-      color: purple;
-    }
-      .full {
+  
+ .full {
     width: 100%;    
 }
 .gap {
@@ -125,65 +106,46 @@
   font-size: 0.75em
 }
 
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-.img{
-  background-repeat: no-repeat;
-}
-.shool {
-            -moz-animation-duration: 1s;
-            -webkit-animation-duration: 5s;
-            -moz-animation-name: slidein;
-            -webkit-animation-name: slidein;
-            animation-delay: 1s;
-            position: relative;
-            animation-fill-mode: both;
+@media screen and (min-width: 768px){
 
-         }
-         @-moz-keyframes slidein {
-            from {
-               margin-left:50%;
-               width:300%;
-               text-align: center;
-               padding-bottom: 2px;
-            }
-            to {
-               margin-left:50%;
-               width:100%;
-               padding-bottom: 2px;
-            }
-         }
-         @-webkit-keyframes slidein {
-            from {
-               margin-left:100%;
-               width:300%;
-               padding-top: 300px;
-               
-            }
-            to {
-               margin-left:40%;
-               width:800%;
-               padding-top: 300px;
-               
-            }
-         }
+  .leftside, .rightside {
+    height: 100vh;
+  }
+}
+.leftside{
+padding-top: 80px;
+}
+.rightside{
 
-  </style>
-  
-    <title>GraceLand Church -  Ministries</title>
+}
+#mood{
+
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+  height: 500px;
+}
+
+#mood:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+}
+
+ </style>
+
+
+    <title>GraceLand Church - Events</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
+    
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
-    
+    <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -198,21 +160,23 @@
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-light ftco-navbar-light site-navbar-target" id="ftco-navbar">
+    
+    <header>
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-light ftco-navbar-light site-navbar-target" id="ftco-navbar">
       <div class="container">
         <a class="navbar-brand" href="index.html"><img  src="images/logo.png"></a>
         <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-          <span style="color: purple" class="oi oi-menu">MENU</span> 
+          <span class="oi oi-menu" style="color: purple">Menu</span> 
         </button>
 
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav nav ml-auto">
-            <li class="nav-item"><a href="index.html" class="nav-link"><span style="font-size: 15px;color: purple">Home</span></a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link" ><span style="font-size: 15px;color: purple">Home</span></a></li>
             
             
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 15px;color: purple">About</a>
        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="aboutUs.html" style="font-size: 15px;color: purple">Beliefs</a>
+          <a class="dropdown-item" href="aboutUs.html" style="font-size: 15px;color: purple" >Beliefs</a>
            <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="ourministries.html" style="font-size: 15px;color: purple">Ministries</a>
           <div class="dropdown-divider"></div>
@@ -220,14 +184,14 @@
            <div class="dropdown-divider"></div>
         </div>
  </li>
-        <li class="nav-item"><a href="events.html" class="nav-link"><span style="font-size: 15px;color: purple">Events</span></a></li>
-              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 15px;color: purple">Gallery</a>
+        <li class="nav-item"><a href="events.html" class="nav-link"><span style="font-size: 15px;color: purple"">Events</span></a></li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 15px;color: purple"">Gallery</a>
        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" class="nav-link" class="nav-item" href="gallery.html" style="font-size: 15px;color: purple">Photos</a>
            <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="sermons.html" style="font-size: 15px;color: purple">Videos</a>
           <div class="dropdown-divider"></div>
-         <!--  <a class="dropdown-item" href="#">Facebook</a> -->
+         
         </div>
  </li>
                 <li class="nav-item"><a href="give.html" class="nav-link"><span style="font-size: 15px;color: purple"">Give</span></a></li>
@@ -236,122 +200,142 @@
         </div>
       </div>
     </nav>
-   <section>
-      <div class="img"  style="background-image:url(images/cross2.jpg);height:700px">
-      <div class="w3-container w3-center w3-animate-right">
-  <h1 class="shool" class="text-sm-center" style="padding-bottom: 200px;padding-right: 80px;color: purple"><b>There's Power<Br> in the Name of Jesus.</b></h1>
-  
-        <div class="overlay"></div>
-          <div class="container">
-            <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
-            <div class="col-md-8 text-center ftco-animate mt-5">
-              <div class="text">
-                <div class="subheading">
-                
-              </div>
+</header>
+    
+<div class="row no-gutters" style="padding-top: 120px">
+
+<div class="col-md-6 no-gutters">
+    <div class="leftside">
+        <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1>Giving Helping Hand in a Time of Need</h1>      
+    <p class="text-dark">In response to Covid-19 pandemic, Graceland Missionary Church has concluded plans to give out food and relief materials to easy the effect of the pandemic on our communities.</p>
+  </div>
+</div>
+    </div>
+</div>
+    <div class="col-md-6 no-gutters"  style="padding-top: 50px">
+        <div class="rightside" class="img-wrap d-flex align-items-stretch">
+        
+        <img id="mood" class="w3-sepia-min"  class="img align-self-stretch" class="rounded"  class="img-fluid" src="images/ac1.jpg"   alt="mood">
+        </div>
+    </div>
+</div>
+    
+
+<section class="event_area section_gap_top">
+        <div class="container">
+            <div class="main_title">
+               <!--  <h2>Upcoming events</h2> -->
+              
             </div>
-          </div>
-        </div>
-      </div>
+        
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="single_event">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-md-6">
+                                <figure>
+                                    <img class="img-fluid w-100" class="rounded" src="images/gal2.jpg" alt="">
+                                    <div class="img-overlay"></div>
+                                </figure>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="content_wrapper">
+                                    <h3 class="title">
+                                        <p>Church Anniversary</p>
+                                    </h3>
+                                    <p>
+                                        Join Us has we celebrate our church anniversary. Lunch will be provided after 10am worship service.
+                                    </p>
+                                    
+                                    <p> September 6th,2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    
-          </div>
+                <div class="col-lg-6">
+                    <div class="single_event">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-md-6">
+                                <figure>
+                                    <img class="img-fluid w-100" src="images/gal3.jpg" alt="">
+                                    <div class="img-overlay"></div>
+                                </figure>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="content_wrapper">
+                                    <h3 class="title">
+                                        <p>Thanksgiving Service</p>
+                                    </h3>
+                                    <p>
+                                        Join us as we worship and praise the lord in our thanksgiving service.
+                                        Lunch will be provided after 10am worship service.
+                                    </p>
+                                    
+                                    <p >September 29th,2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="single_event">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-md-6">
+                                <figure>
+                                    <img class="img-fluid w-100" src="images/christmas.jpg" alt="">
+                                    <div class="img-overlay"></div>
+                                </figure>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="content_wrapper">
+                                    <h3 class="title">
+                                        <p>Christmas Day Service</p>
+                                    </h3>
+                                    <p>
+                                        Join us as we celebrate Christ, There would be gift exchange after the worship service by 10am.
+                                    </p>
+                                   
+                                    <p>December 25th,2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="single_event">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-md-6">
+                                <figure>
+                                    <img class="img-fluid w-100" src="images/newyear.jpg" alt="">
+                                    <div class="img-overlay"></div>
+                                </figure>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="content_wrapper">
+                                    <h3 class="title">
+                                        <p>New Year's Eve Service</p>
+                                    </h3>
+                                    <p>
+                                      The new year eve service will hold in the church auditorium.<br>
+                                      Time : 10pm-1am.
+                                    </p>
+                                    
+                                    <p>December 31st,2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
-    <section class="ftco-section ftco-services-2" id="services-section">
-      <div class="container">
-        <div class="row justify-content-center pb-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-           
-            <h2 class="mb-4">GraceLand Missionary Church</h2>
-            <p>These are what we stand for</p>
-          </div>
-        </div>
-    
-<div class="container-fluid">
-  <div class="row" class="col-md d-flex align-self-stretch ftco-animate">
-    <div class="col-sm-4" class="media block-4 services text-center d-block" >
-      
-              <div class="icon "><span   class="flaticon-rings d-flex justify-content-center align-items-center"></span></div> 
-    </div>
-    <div class="col-sm-8" >
-    <div class="media-body">
-                <h3>Marriage And Family Ministry</h3>
-                <p>This ministry provides Godly guidance, counseling and mentorship that builds healthy marriage and family. If you are planning to get married, Graceland offers pre-marital program that gives couples effective Godly tools enabling your marriage to be a lasting and fulfilling one. This ministry also provides inspiration, resources, and support to parents in their parenting journey. Classes offered opens parents’ eyes to biblical parenting principles and how to develop a clear game plan for righteously raising your child or children to maturity.</p>
-              </div>
-            </div>      
-          </div>
-    </div>
-  </div>
-</div>
-<div class="container-fluid">
- <div class="row" class="col-md d-flex align-self-stretch ftco-animate">
-<div class="col-sm-4" class="media block-4 services text-center d-block" >
-      
-              <div class="icon "><span   class="flaticon-bible d-flex justify-content-center align-items-center"></span></div> 
-    </div>
-    <div class="col-sm-8" >
-    <div class="media-body">
-                <h3>Prison, Hospital and Homeless Ministry</h3>
-                <p>Graceland is passionate about Jesus’ command, “Go into the world and preach the gospel to all creation.” (Mk 16:15). We believe in the tangible expression of God love which is rooted in compassion for those who are forgotten and hurting, love in action opens doors for the gospel. It is a lifestyle of the church to extend the gospel and love to the homeless, those in prisons and in hospitals.</p>
-              </div>
-            </div>      
-          </div>
-    </div>
-  </div>
-</div>
-<div class="container-fluid">
- <div class="row" class="col-md d-flex align-self-stretch ftco-animate">
-<div class="col-sm-4" class="media block-4 services text-center d-block" >
-      
-              <div class="icon "><span   class="flaticon-church d-flex justify-content-center align-items-center"></span></div> 
-    </div>
-    <div class="col-sm-8" >
-    <div class="media-body">
-                <h3>Men and Women Ministry</h3>
-                <p>This ministry offers opportunities for men and women to gather for prayer and fellowship in various settings. We seek to develop strong leaders according to Proverbs 27:17 “Iron sharpens iron”, by sharing information and experiences that help them to grow spiritually as matured Christians. The ministry meetings include prayer breakfasts, evening bible studies, leadership series, and fun moments.</p>
-              </div>
-            </div>      
-          </div>
-    </div>
-  </div>
-</div>
-<div class="container-fluid">
- <div class="row" class="col-md d-flex align-self-stretch ftco-animate">
-<div class="col-sm-4" class="media block-4 services text-center d-block" >
-      
-              <div class="icon "><span   class="flaticon-social-care d-flex justify-content-center align-items-center"></span></div> 
-    </div>
-    <div class="col-sm-8" >
-    <div class="media-body">
-                <h3>Social Wellfare and Refuge Ministry</h3>
-                <p>Graceland’s welcoming team encourages its members to respond to the needs of the refugees, asylees and forcibly displaced persons, and support the efforts of partner agencies that resettles refugees and asylees in the United States of America. We are dedicated to put in place activities and programs that help ease the journey of families eager to start their new life away from violence and fear. Our activities and programs include but are not limited to the provision of pro-bono legal aid services, psycho-social assistance, educational program for children, food donation, as well as poverty alleviation and job placement initiatives.</p>
-              </div>
-            </div>      
-          </div>
-    </div>
-  </div>
-</div>
-<div class="container-fluid">
- <div class="row" class="col-md d-flex align-self-stretch ftco-animate">
-<div class="col-sm-4" class="media block-4 services text-center d-block" >
-      
-              <div class="icon "><span   class="icon-users d-flex justify-content-center align-items-center"></span></div> 
-    </div>
-    <div class="col-sm-8" >
-    <div class="media-body">
-                <h3>Children and Youth Ministry</h3>
-                <p>Our desire is that children and youth will experience the excitement and power of God whenever they come to church, by creating an atmosphere that is nurturing and loving. Here at Graceland, children will not only have fun playing with their friends, but also by learning how to apply age appropriate scripture lessons to their daily lives. In the midst of the chaos of adolescence, we walk faithfully with our youth as they transition from children to young adult by helping them grow lasting relationship with Jesus Christ, for they are tomorrow leaders.</p>
-              </div>
-            </div>      
-          </div>
-    </div>
-  </div>
-</div>
-</section>
-
-          <footer>
+<footer>
     <div class="footer" id="footer">
         <div class="container">
             <div class="row">
@@ -362,8 +346,8 @@
               <address">
                 <p class="icon-map-signs"> 5 Grape St. Pittsburgh, PA 15210</p><br>
                <p class="icon-phone2"> Tel : +14126083235</p><br>
-               <p class="icon-paper-plane"> Email :info@gracelandmissionarychurch.org</p><br>
-               <p style="padding-top: 20px"><a href="https://web.facebook.com/Graceland-Missionary-Church-315300902393915" class="btn btn-primary">Contact Us on Facebook</a></p>
+               <p class="icon-paper-plane">  Email :info@gracelandmissionarychurch.org</p><br>
+             <p style="padding-top: 20px"><a href="https://web.facebook.com/Graceland-Missionary-Church-315300902393915" class="btn btn-primary">Contact Us on Facebook</a></p>
               </address>
                 </div>
         </div>
@@ -407,16 +391,19 @@
  
 
 </html>
-<!-- <script type="text/javascript">
-  $(document).ready(function(){
-    $('.navbar-toggle').click(function(){
-      var expanded = $('.navbar-toggle').attr('aria-expanded');
-      if (expanded == 'false') {
-        $('.main-container').hide();
+<script type="text/javascript">
+    var myMood= document.getElementById("mood");
+var images=[
+    "images/ac1.jpg",
+    "images/ac2.jpg",
+    "images/ac3.jpg",
+];
 
-      }else{
-        $('.main-container').show();
-      }
-    });
-  });
- </script> -->
+
+
+function change(){
+        myMood.src= images.reverse()[2];
+}
+
+setInterval(change,2000);    
+</script>
